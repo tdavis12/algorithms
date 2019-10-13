@@ -9,9 +9,9 @@ public class Runner {
     int t3 = 6;
     int t4 = 3;
 
-    System.out.println(sol.search(set, t1));
-    System.out.println(sol.search(set, t2));
-    System.out.println(sol.search(set, t3));
-    System.out.println(sol.search(set, t4));
+    System.out.println(sol.search(set, t1)); // result: 4
+    System.out.println(sol.search(set, t2)); // result: 0
+    System.out.println(sol.search(set, t3)); // result: 2
+    System.out.println(sol.search(set, t4)); // result: -1
   }
 }
